@@ -1,0 +1,22 @@
+# models/staging/schema.yml
+version: 2
+
+models:
+  - name: stg__instacart_ORDERS
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg__instacart_ORDER_PRODUCTS
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+
+  - name: stg__instacart_PRODUCTS
+    columns:
+      - name: product_id
+        tests:
+          - not_null

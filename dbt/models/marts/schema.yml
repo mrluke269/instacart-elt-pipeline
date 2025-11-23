@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: dim_order.sql
+    description: "Dimension table for orders."
+    columns:
+      - name: order_id
+        description: "Unique identifier for each order."
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        description: "Identifier for the user who placed the order."
+      - name: order_date
+        description: "Date when the order was placed."
+      - name: order_number
+        description: "Sequential number of the order for the user."
+  
+  - name: dim_product.sql
+    description: "Dimension table for products."
+    columns:
+      - name: product_id
+        description: "Unique identifier for each product."
+        tests:
+          - not_null
+      - name: order_id
+        description: "Identifier for the order associated with the product."
+        tests:
+          - not_null
+  
+  - name: fact_order_product.sql
+    description: "Fact table linking orders and products."
+    columns:
+      - name: order_id
+        description: "Identifier for the order."
+        tests:
+          - not_null
+      - name: product_id
+        description: "Identifier for the product."
+        tests:
+          - not_null

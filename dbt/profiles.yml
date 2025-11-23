@@ -1,0 +1,23 @@
+instacart:
+  outputs:
+    dev:
+      account: jfspetv-wgb43135
+      database: DEV
+      private_key_path: /opt/airflow/keys/snowflake_key.p8
+      role: ACCOUNTADMIN
+      schema: DBT_LMAI
+      threads: 4
+      type: snowflake
+      user: Luketrmai
+      warehouse: COMPUTE_WH
+    prod:
+      account: jfspetv-wgb43135
+      database: analytics
+      private_key_path: /opt/airflow/keys/snowflake_key.p8
+      role: ACCOUNTADMIN
+      schema: instacart
+      threads: 8
+      type: snowflake
+      user: Luketrmai
+      warehouse: COMPUTE_WH
+  target: dev # default target for this profile

@@ -1,0 +1,22 @@
+# Secrets
+keys/
+
+# Airflow generated files
+logs/
+*.pyc
+__pycache__/
+
+# Data files (too large for GitHub)
+data/**/*.csv
+
+# Environment
+.env
+*.p8
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Power BI temp files
+*.pbix.tmp

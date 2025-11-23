@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: instacart_raw
+    database: RAW
+    schema: INSTACART_RAW
+    tables:
+      - name: ORDERS
+        description: Transactional order header data. One row per order with user, timing, and sequence information.
+        
+      - name: ORDER_PRODUCTS
+        description: Transactional order line items. One row per product in each order, including cart sequence and reorder flag.
+        
+      - name: AISLES
+        description: Static reference data for aisle catalog. One row per aisle with aisle_id and name.
+        
+      - name: DEPARTMENTS
+        description: Static reference data for department catalog. One row per department with department_id and name.
+        
+      - name: PRODUCTS
+        description: Static reference data for product catalog. One row per product with references to aisle and department.

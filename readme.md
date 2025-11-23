@@ -19,7 +19,7 @@ This pipeline processes Instacart grocery order data to support operational deci
 
 ## Architecture
 
-![Architecture Diagram](./images/architecture.png)
+![Architecture Diagram](./images/architechture.png)
 
 The pipeline runs inside Docker containers with volume mounts connecting the Windows host filesystem to the containerized environment.
 

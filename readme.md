@@ -94,3 +94,10 @@ The pipeline delivers operational insights through a two-page Power BI dashboard
 ## Data Source
 
 [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis) — Kaggle dataset containing 3.4M grocery orders from 200K+ users.
+
+---
+
+📧 Contact & Links
+GitHub: [github.com/mrluke269]
+Email: [luke.trmai@gmail.com]
+

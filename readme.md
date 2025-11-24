@@ -1,4 +1,12 @@
 # Instacart Operations Analytics Pipeline
+[![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=Apache%20Airflow&logoColor=white)](https://airflow.apache.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)](https://www.getdbt.com/)
+[![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)](https://www.snowflake.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+
 
 An automated data pipeline that processes grocery orders daily, transforms raw data into analytics-ready tables, and delivers operational insights through interactive dashboards.
 
@@ -96,8 +104,15 @@ The pipeline delivers operational insights through a two-page Power BI dashboard
 [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis) — Kaggle dataset containing 3.4M grocery orders from 200K+ users.
 
 ---
+<div align="center">
 
-📧 Contact & Links
-GitHub: [github.com/mrluke269]
-Email: [luke.trmai@gmail.com]
 
+## 📧 Contact & Links
+
+**GitHub:** [github.com/mrluke269]  
+**Email:** [luke.trmai@gmail.com]
+### 
+
+**Luke M**
+
+</div>

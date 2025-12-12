@@ -11,6 +11,9 @@
 An automated data pipeline that processes grocery orders daily, transforms raw data into analytics-ready tables, and delivers operational insights through interactive dashboards.
 
 ---
+## [<img src="https://img.icons8.com/?size=512&id=19318&format=png" width="15">] Full Pipeline Walkthrough
+
+[<img src="https://img.icons8.com/?size=512&id=19318&format=png" width="120">](https://youtu.be/jkZCXvYTi28)
 
 ## Business Objective
 
